@@ -1,5 +1,10 @@
+arch:
+  - amd64
+  - ppc64le
 language: node_js
 node_js:
+- node
+- lts/*
 - 5.9
 - 5
 sudo: required
